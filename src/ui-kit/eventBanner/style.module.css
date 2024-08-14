@@ -1,0 +1,11 @@
+.container {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(200,200,200);
+    font-family: "OpenSans";
+}
+
+.event-title {
+    text-align: center;
+}
+

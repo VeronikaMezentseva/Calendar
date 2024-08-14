@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { TestComponent } from './TestComponent';
+import { EventBanner } from './EventBanner';
 
 const meta = {
-  component: TestComponent,
-} satisfies Meta<typeof TestComponent>;
+  component: EventBanner,
+} satisfies Meta<typeof EventBanner>;
 
 export default meta;
 
