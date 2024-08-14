@@ -1,12 +1,13 @@
-/* eslint-disable */
-import TestComponent from './TestComponent';
+import type { Meta, StoryObj } from '@storybook/react';
 
-export default {
-  title: "TestComponent",
-};
+import { TestComponent } from './TestComponent';
 
-export const Default = () => <TestComponent />;
+const meta = {
+  component: TestComponent,
+} satisfies Meta<typeof TestComponent>;
 
-Default.story = {
-  name: 'default',
-};
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+export const Default: Story = {};
