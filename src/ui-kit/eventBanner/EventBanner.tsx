@@ -1,11 +1,14 @@
 import React, { FC } from 'react';
 import style from './style.module.css'
+import AccessibleForwardIcon from '@mui/icons-material/AccessibleForward';
+
 
 
 export const EventBanner: FC = () => {
    return(
      <div className={style.container}>
-      <p className={style["event-title"]}>Workout</p>
+      <div className={style["title-container"]}><p className={style["event-title"]}>Workout</p><AccessibleForwardIcon className={style.icon}/></div>
+      <p className={style["event-time"]}>16:00-18:00</p>
      </div>
    );
  }
