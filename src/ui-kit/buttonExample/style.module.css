@@ -1,8 +1,11 @@
+@import url('../../public/variables/variables.module.css');
+
 .button {
   font-family: "Open Sans";
   font-style: italic;
   font-weight: 400;
   font-variation-settings: "wght" 1000;
-  color: purple;
+  color: var(--accent-color);
   font-size: 48px;
+  border: 2px solid var(--main-color);
 }
