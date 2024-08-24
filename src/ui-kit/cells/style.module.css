@@ -1,0 +1,28 @@
+.child {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  min-height: 180px;
+  outline: 1px solid rgb(216, 216, 216);
+  background-color: rgb(245, 245, 245);
+  /* padding: 10px; */
+}
+
+.child > div {
+  padding: 10px;
+}
+
+.cell-today {
+  color: rgb(255, 255, 255);
+  border: 1px solid pink;
+  z-index: 2;
+}
+
+.cell-today > div {
+  background-color: pink;
+  border-radius: 100px;
+  max-width: 10px;
+}
+
+.cell-secondary-month {
+  color: rgb(166, 174, 181);
+}

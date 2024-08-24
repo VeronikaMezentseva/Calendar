@@ -1,0 +1,25 @@
+.week-container {
+  display: grid;
+  grid-template-columns: repeat(7, 200px);
+  grid-template-rows: repeat(1, 30px);
+  text-align: center;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 550;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 200px);
+  grid-template-rows: repeat(5, 180px);
+  /* text-align: end; */
+  align-content: end;
+  align-items: end;
+  align-self: end;
+}
+
+.child {
+  outline: 1px solid rgb(166, 174, 181);
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+}
